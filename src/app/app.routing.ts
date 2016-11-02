@@ -25,6 +25,7 @@ const routes: Routes = [
   { path: 'dashboard', loadChildren: 'app/dashboard/dashboard.module#DashboardModule' },
   { path: 'speakers', loadChildren: 'app/speakers/speakers.module#SpeakersModule', },
   { path: 'sessions', loadChildren: 'app/sessions/sessions.module#SessionsModule', },
+  { path: 'remit', loadChildren: 'app/remit/remit.module#RemitModule', },
   { path: '**', pathMatch: 'full', component: PageNotFoundComponent },
 ];
 

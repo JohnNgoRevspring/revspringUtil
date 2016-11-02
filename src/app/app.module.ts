@@ -11,12 +11,14 @@ import { SpeakerService } from './models';
 import { PageNotFoundComponent } from './page-not-found.component';
 import { CoreModule } from './core/core.module';
 import { LoginModule } from './login/login.module';
+import { RemitModule } from './remit/remit.module';
 
 @NgModule({
   imports: [
     BrowserModule,
     HttpModule,
     LoginModule,
+    RemitModule,
     // Routes get loaded in order. It is important that login
     // come before AppRoutingModule, as
     // AppRoutingModule defines the catch-all ** route

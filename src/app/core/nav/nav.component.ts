@@ -22,6 +22,7 @@ export class NavComponent implements OnInit {
       { caption: 'Sessions', link: ['/sessions'] },
       { caption: 'Admin', link: ['/admin'] },
       { caption: 'Login', link: ['/login'] },
+      { caption: 'Remit', link: ['/remit'] },
     ];
   }
 
